@@ -1,0 +1,31 @@
+body { background-color: #E6AB60}
+
+h2{
+   color: #F2837E;font-size: 32px
+ }
+marquee { color: #F2E47E  }
+
+.things {
+  color: grey;
+}
+
+p{ color: #A0F27E }
+
+b { color: #C13E68  }
+.leo {
+  /*animation-delay: 2s;*/
+  animation: pulse 3s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+  animation-direction: alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
